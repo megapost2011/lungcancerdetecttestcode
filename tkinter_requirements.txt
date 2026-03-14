@@ -1,0 +1,32 @@
+# 肺癌量子診断システム - Tkinter版 依存パッケージ
+# Lung Cancer Quantum Diagnosis - Tkinter Requirements
+
+# 注意: TkinterはPython標準ライブラリに含まれています
+# Tkinter自体のインストールは不要です
+
+# 量子コンピューティング
+qiskit>=1.0.0
+qiskit-aer>=0.13.0
+qiskit-algorithms>=0.3.0
+qiskit-machine-learning>=0.7.0
+
+# 科学計算・数値計算
+numpy>=1.24.0
+scipy>=1.11.0
+
+# 画像処理
+opencv-python>=4.8.0
+scikit-image>=0.21.0
+Pillow>=10.0.0
+
+# 機械学習
+scikit-learn>=1.3.0
+
+# グラフ描画（Tkinter統合用）
+matplotlib>=3.7.0
+
+# オプション: DICOM画像対応
+# pydicom>=2.4.0
+
+# オプション: GPU加速
+# cupy>=12.0.0
