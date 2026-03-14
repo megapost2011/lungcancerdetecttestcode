@@ -1,0 +1,2 @@
+# lungcancerdetecttestcode
+肺癌画像診断システムプロトタイプの開発実験です。
